@@ -136,6 +136,14 @@ export const Tags: { [type in TagType]: Tag } = {
 // prettier-ignore
 const Users: User[] = [
   {
+    title: 'Genadrop',
+    description: 'The no code generator, minter, and marketplace for social, 1 of 1, and collection NFTs.',
+    preview: require('./showcase/valora.png'),
+    website: 'https://genadrop.io/',
+    source: 'https://github.com/codingshot/genadrop',
+    tags: ['apps', 'nft', 'social'],
+  },
+  {
     title: 'Valora',
     description: 'The crypto wallet with 12% rewards to buy, send, spend, earn, and collect NFTs on the Celo blockchain.',
     preview: require('./showcase/valora.png'),
